@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/button.css" />
     <link rel="stylesheet" href="./css/mediaquerys.css" />
-    <title>Portafolio</title>
+    <title>Portafolio Emiliano</title>
   </head>
   <body>
     <header>
@@ -16,19 +16,51 @@
           <img src="./icons/logo.svg" width="70px" alt="" />
           <nav class="navbar">
             <ul>
-              <li><a id="hola" class="is-active" href="#main">Hola</a></li>
-              <li><a id="project" href="#proyectos">Proyectos</a></li>
-              <li><a id="contact" href="#contacto">Hablemos</a></li>
+              <li>
+                <a
+                  aria-label="navega a hola"
+                  alt="navega a hola"
+                  id="hola"
+                  class="is-active"
+                  href="#main"
+                  >Hola</a
+                >
+              </li>
+              <li>
+                <a
+                  aria-label="navega a proyectos"
+                  alt="navega a proyectos"
+                  id="project"
+                  href="#proyectos"
+                  >Proyectos</a
+                >
+              </li>
+              <li>
+                <a
+                  aria-label="navega a contacto"
+                  alt="navega a contacto"
+                  id="contact"
+                  href="#contacto"
+                  >Hablemos</a
+                >
+              </li>
             </ul>
           </nav>
-          <button class="button">Curriculum</button>
+          <a href="./Documents/CV.pdf" target="_blank" class="button"
+            >Curriculum</a
+          >
         </div>
       </div>
     </header>
     <div class="wrapper">
       <section class="hero" id="main">
         <div class="hero__img">
-          <img src="./images/user.png" width="336" height="330" alt="" />
+          <img
+            src="./images/user.png"
+            width="336"
+            height="330"
+            alt="mi foto de perfil"
+          />
         </div>
         <div class="hero__description">
           <h1 class="hero_title">
@@ -40,23 +72,36 @@
             atraen a las personas.
           </p>
           <div class="social">
-            <a class="button-icon"
-              ><img src="./icons/icon-phone.svg" alt=""
+            <a
+              class="button-icon"
+              href="tel:+598099807203"
+              aria-label="llamar por telefono"
+              alt="llamar por telefono"
+              ><img src="./icons/icon-phone.svg"
             /></a>
-            <a class="button-icon"
-              ><img src="./icons/icon-important_mail.svg" alt=""
+            <a
+              class="button-icon"
+              href="mailto:emiberon10@gmail.com"
+              aria-label="enviar mail"
+              alt="enviar mail"
+              ><img src="./icons/icon-important_mail.svg"
             /></a>
-            <a class="button-icon"
-              ><img src="./icons/icon-github.svg" alt=""
-            /></a>
-            <a class="button-icon"
-              ><img src="./icons/icon-instagram.svg" alt=""
-            /></a>
-            <a class="button-icon"
-              ><img src="./icons/icon-twitter_squared.svg" alt=""
+            <a
+              class="button-icon"
+              href="https://github.com/emilianoberon10"
+              aria-label="ver github"
+              alt="ver github"
+              ><img src="./icons/icon-github.svg"
             /></a>
           </div>
-          <a href="https://x" class="button">Descargar Curriculum</a>
+          <a
+            href="./Documents/CV.pdf"
+            target="_blank"
+            class="button"
+            aria-label="Descargar Curriculum"
+            alt="Descargar Curriculum"
+            >Descargar Curriculum</a
+          >
         </div>
       </section>
 
@@ -194,7 +239,7 @@
           <input
             required
             placeholder="correo@gmail.com"
-            name="correo "
+            name="email "
             id="form-correo"
             type="email"
           />
@@ -211,9 +256,15 @@
             rows="10"
           ></textarea>
         </label>
-        <button class="button" type="submit">Enviar Mensajes</button>
+        <button id="enviar" class="button" type="submit">
+          Enviar Mensajes
+        </button>
       </form>
-
+      <a
+        href="mailto:emilianoberon10@gmail.com"
+        id="link-mail"
+        target="_blank"
+      ></a>
       <footer class="footer">
         <div class="footer-logo">
           <img src="./icons/logo.svg" width="70px" alt="" />
@@ -226,12 +277,6 @@
           <a class="button-icon"
             ><img src="./icons/icon-github.svg" alt=""
           /></a>
-          <a class="button-icon"
-            ><img src="./icons/icon-instagram.svg" alt=""
-          /></a>
-          <a class="button-icon"
-            ><img src="./icons/icon-twitter_squared.svg" alt=""
-          /></a>
         </div>
         <div class="footer-copy">
           <p>Hecho con el ♥️ por Emiliano.</p>
@@ -240,5 +285,6 @@
       </footer>
     </div>
     <script src="./js/index.js"></script>
+    <script src="./js/form.js"></script>
   </body>
 </html>

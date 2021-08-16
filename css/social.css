@@ -1,0 +1,17 @@
+.social {
+  -webkit-padding-after: 1.5em;
+          padding-block-end: 1.5em;
+}
+
+.social .button-icon {
+  padding: 4px;
+  background-color: var(--white);
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.social .button-icon img {
+  vertical-align: middle;
+}
+/*# sourceMappingURL=social.css.map */

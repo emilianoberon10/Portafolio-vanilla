@@ -1,0 +1,13 @@
+.social {
+  padding-block-end: 1.5em;
+  .button-icon {
+    padding: 4px;
+    background-color: var(--white);
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    display: inline-block;
+    img {
+      vertical-align: middle;
+    }
+  }
+}

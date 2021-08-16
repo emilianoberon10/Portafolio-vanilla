@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,iBAAiB,EAAE,KAAK;CAWzB;;AAZD,AAEE,OAFK,CAEL,YAAY,CAAC;EACX,OAAO,EAAE,GAAG;EACZ,gBAAgB,EAAE,YAAY;EAC9B,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,cAAc;EAChC,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,YAAY;CAItB;;AAXH,AAQI,OARG,CAEL,YAAY,CAMV,GAAG,CAAC;EACF,cAAc,EAAE,MAAM;CACvB",
+    "sources": [
+        "social.scss"
+    ],
+    "names": [],
+    "file": "social.css"
+}

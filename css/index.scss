@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-// @import "./button";
-// @import "./mediaquerys";
+
+@import url("./button.css");
+@import url("./mediaquerys.css");
+@import url("./title.css");
+@import url("./social.css");
+
 :root {
   --primary: #310a90;
   --gradient: linear-gradient(45deg, #fad7a1 0%, #e96d71 100%);
@@ -79,19 +83,6 @@ header {
     text-align: center;
   }
 }
-.social {
-  padding-block-end: 1.5em;
-  .button-icon {
-    padding: 4px;
-    background-color: var(--white);
-    border: 2px solid var(--primary);
-    border-radius: 4px;
-    display: inline-block;
-    img {
-      vertical-align: middle;
-    }
-  }
-}
 
 .card {
   text-align: center;
@@ -138,16 +129,7 @@ header {
     }
   }
 }
-.title {
-  background-color: var(--primary);
-  align-self: flex-start;
-  color: var(--white);
-  font: var(--headline5);
-  padding-block: 4px;
-  padding-inline: 8px;
-  margin-inline-start: 4px;
-  box-shadow: -4px 4px 0 var(--white);
-}
+
 .contact-form {
   display: flex;
   flex-direction: column;

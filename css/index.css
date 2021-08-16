@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("./button.css");
+@import url("./mediaquerys.css");
+@import url("./title.css");
+@import url("./social.css");
 :root {
   --primary: #310a90;
   --gradient: linear-gradient(45deg, #fad7a1 0%, #e96d71 100%);
@@ -105,23 +109,6 @@ header .header__content .navbar ul a.is-active {
   text-align: center;
 }
 
-.social {
-  -webkit-padding-after: 1.5em;
-          padding-block-end: 1.5em;
-}
-
-.social .button-icon {
-  padding: 4px;
-  background-color: var(--white);
-  border: 2px solid var(--primary);
-  border-radius: 4px;
-  display: inline-block;
-}
-
-.social .button-icon img {
-  vertical-align: middle;
-}
-
 .card {
   text-align: center;
 }
@@ -184,20 +171,6 @@ header .header__content .navbar ul a.is-active {
 
 .project .project__img img {
   max-inline-size: 100%;
-}
-
-.title {
-  background-color: var(--primary);
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  color: var(--white);
-  font: var(--headline5);
-  padding-block: 4px;
-  padding-inline: 8px;
-  -webkit-margin-start: 4px;
-          margin-inline-start: 4px;
-  -webkit-box-shadow: -4px 4px 0 var(--white);
-          box-shadow: -4px 4px 0 var(--white);
 }
 
 .contact-form {
